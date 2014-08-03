@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_blue">#ff33b5e5</color>
+    <color name="title_gray">#717171</color>
+    <color name="dark_gray">#aaa</color>
+    <color name="corner_shadow">#ccc</color>
+
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff333333</color>
+    <color name="color_green">#ff1f7c07</color>
+    <color name="color_blue">#ff0b89dd</color>
+    <color name="color_gray">#ff333333</color>
+    <color name="color_whitegray">#ffe5e5e5</color>
+</resources>

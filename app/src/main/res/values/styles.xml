@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ZhihuDailyPurify.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Theme.ZhihuDailyPurify.ActionBarStyle</item>
+        <item name="android:actionModeStyle">@style/Theme.ZhihuDailyPurify.Widget.ActionMode</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_cab_done_holo_dark</item>
+        <item name="android:dropDownSpinnerStyle">@style/Theme.ZhihuDailyPurify.SpinnerDropDownStyle</item>
+        <item name="android:spinnerItemStyle">@style/Theme.ZhihuDailyPurify.SpinnerItemStyle</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/Theme.ZhihuDailyPurify.ActionBarStyle.TitleTextStyle</item>
+        <item name="android:background">#f4842d</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.ActionBarStyle.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/title_gray</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.Widget.ActionMode" parent="@android:style/Widget.Holo.ActionMode">
+        <item name="android:background">@drawable/cab_background_top_holo_dark</item>
+        <item name="android:titleTextStyle">@style/Theme.ZhihuDailyPurify.ActionBarStyle.ActionMode.TitleTextStyle
+        </item>
+        <item name="android:subtitleTextStyle">
+            @style/Theme.ZhihuDailyPurify.ActionBarStyle.ActionMode.SubtitleTextStyle
+        </item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.SpinnerDropDownStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_dropdown_navigation_item_background_light</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:dropDownWidth">270dp</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.SpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/Theme.ZhihuDailyPurify.SpinnerItemTextStyle</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.SpinnerItemTextStyle" parent="@android:style/Widget">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.ActionBarStyle.ActionMode.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ZhihuDailyPurify.ActionBarStyle.ActionMode.SubtitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FloatProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/float_progressbar</item>
+        <item name="android:minWidth">14dip</item>
+        <item name="android:maxWidth">14dip</item>
+        <item name="android:minHeight">14dip</item>
+        <item name="android:maxHeight">14dip</item>
+    </style>
+
+</resources>
