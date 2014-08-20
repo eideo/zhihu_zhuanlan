@@ -10,7 +10,7 @@
 
 ### Dependency - 依赖
   - Java Development Kit (JDK) 7 +
-  - gradle 1.10
+  - gradle 1.11
   - Android SDK
     - Android SDK Build-tools 19.1 +
     - Android Support Repository 5 +
